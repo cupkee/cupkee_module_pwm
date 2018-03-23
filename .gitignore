@@ -1,0 +1,5 @@
+# module_pwm ignore
+
+*.sh
+/build
+/openocd
