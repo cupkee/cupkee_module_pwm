@@ -46,7 +46,7 @@ typedef struct pwm_t {
     pwm_chn_t chn[0];
 } pwm_t;
 
-static void **pwm_instance = NULL;
+static void *pwm_instance[PWM_MAX];
 
 static void pwm_reload(pwm_t *pwm)
 {
